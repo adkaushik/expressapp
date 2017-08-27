@@ -1,0 +1,124 @@
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: middle;
+}
+
+/* ---- particles.js container ---- */
+#page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clear: both;
+}
+#particles-js {
+   position: relative;
+    
+  width: 100vw;
+  height: 100vh;
+  /*background-color: #262626;*/
+  background-image: url('s.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+    
+}
+
+#sign{
+    text-align: center;
+    padding: 0;
+    color:currentColor;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    z-index: 10;
+    background-color:rgba(47, 79, 79,0.6);
+    height: 50vh;
+    width:40vw;
+    min-width: 200px;
+    
+}
+
+#sign input{
+	background-color:transparent;
+	border:1px solid #cccccc;
+	color: white;
+	-webkit-appearance:none;
+	margin:5px;
+	margin-bottom: 20px;
+	padding-left: 5px;
+	max-width: 160px;
+
+}
+#sign input::placeholder{
+    color:beige;
+} 
+
+#sign h2{
+    color:cornsilk;
+    position: relative;
+    top: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 38px;
+}
+
+.submit{
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+
+#sign form{
+    margin:20px;
+}
+
+ 
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+
+ 
