@@ -9,7 +9,7 @@ body{
 	font-size:16px;
 	color:white;
 	line-height: 1.6;
- 	
+
 }
 
 #showcase{
@@ -63,7 +63,7 @@ body{
 	text-align:center;
 	font-size: 14px;
 	line-height: 2;
-	
+
 }
 
 #section-b{
@@ -86,7 +86,7 @@ body{
 	text-align:center;
 	font-size: 14px;
 	line-height: 2;
-	
+
 }
 
 .box-1{
@@ -106,7 +106,7 @@ padding:20px;
 
 	background-color: #f0f0f0;
 	text-align: center;
-	padding:20px;	
+	padding:20px;
 }
 
 #twovp{
@@ -125,5 +125,18 @@ padding:20px;
 
 #section-d p{
 	padding-top:60px;
-	margin-top: 10px grey solid;	
+	margin-top: 10px grey solid;
+}
+
+body::-webkit-scrollbar {
+    width: 0px;
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
 }
