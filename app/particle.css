@@ -20,6 +20,9 @@ canvas {
 
 #particles-js {
    position: relative;
+   display:flex;
+   justify-content: center;
+   align-items: center;
 
   width: 100vw;
   height: 100vh;
@@ -52,6 +55,7 @@ canvas {
 }
 
 #sign{
+
     text-align: center;
     padding: 0;
     color:currentColor;
@@ -61,10 +65,11 @@ canvas {
     flex-direction: column;
     position: absolute;
     z-index: 10;
-    background-color:rgba(47, 79, 79,0.6);
+    /*background-color:rgba(47, 79, 79,0.6);*/
     height: 50vh;
     width:40vw;
     min-width: 200px;
+    min-height: 60vh;
 
 }
 
@@ -77,6 +82,7 @@ canvas {
 	margin-bottom: 20px;
 	padding-left: 5px;
 	max-width: 160px;
+
 
 }
 #sign input::placeholder{
@@ -96,6 +102,9 @@ canvas {
     padding: 3px;
     padding-left: 5px;
     padding-right: 5px;
+    width: auto;
+    height: auto;
+    cursor: pointer;
 
 }
 
