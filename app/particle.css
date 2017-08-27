@@ -17,9 +17,10 @@ canvas {
     align-items: center;
     clear: both;
 }
+
 #particles-js {
    position: relative;
-    
+
   width: 100vw;
   height: 100vh;
   /*background-color: #262626;*/
@@ -27,7 +28,27 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-    
+
+}
+
+.back-button {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: 1;
+  border: 1px solid white;
+  padding: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.back-button > a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.back-button:hover {
+  background-color: rgba(47, 79, 79, 0.6);
 }
 
 #sign{
@@ -44,7 +65,7 @@ canvas {
     height: 50vh;
     width:40vw;
     min-width: 200px;
-    
+
 }
 
 #sign input{
@@ -60,7 +81,7 @@ canvas {
 }
 #sign input::placeholder{
     color:beige;
-} 
+}
 
 #sign h2{
     color:cornsilk;
@@ -75,14 +96,14 @@ canvas {
     padding: 3px;
     padding-left: 5px;
     padding-right: 5px;
-    
+
 }
 
 #sign form{
     margin:20px;
 }
 
- 
+
 /* ---- stats.js ---- */
 
 .count-particles{
@@ -118,7 +139,3 @@ canvas {
 .count-particles{
   border-radius: 0 0 3px 3px;
 }
-
-
-
- 

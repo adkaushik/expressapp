@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title></title>
-         <link rel="stylesheet" type="text/css" href="particle.css">
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="particle.css">
 
 
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
-        <script>
-            particlesJS.load('particles-js', 'particle.json' , function() {  
-            console.log('callback - particles.js config loaded');
-                });
-        </script>
-
-
-    </head>
-    <body>
-            <div id="page">
-
-                <div id="particles-js"></div>
-
-        <div id="sign">
-            <h2>SIGN UP</h2>
-           <form id="signup" class="decor" method="post" action="">
-            <input type="text" name="first name" required placeholder="First Name">
-
-	           <input type="text" name="last name" required placeholder="Last Name">
+    <script>
+    particlesJS.load('particles-js', 'particle.json' , function() {
+      console.log('callback - particles.js config loaded');
+    });
+    </script>
 
 
-                <br>
-                <input type="text" name="username" required placeholder="Username">
+  </head>
 
-                <input type="password" name="password" required placeholder="Password">
-                <br>
+  <body>
+    <div class="back-button">
+      <a href="/">Home</a>
+    </div>
+    <div id="page">
 
-                <input type="email" name="email" required placeholder="Email">
-                <br>
+      <div id="particles-js"></div>
 
-                <input class="submit" type="submit" name="Signup" href="index.html">
-            </form>
-         </div>
-        </div>
+      <div id="sign">
+        <h2>SIGN UP</h2>
+        <form id="signup" class="decor" method="post" action="">
+          <input type="text" name="first name" required placeholder="First Name">
+          <input type="text" name="last name" required placeholder="Last Name">
+          <br/>
+
+          <input type="text" name="username" required placeholder="Username">
+          <input type="password" name="password" required placeholder="Password">
+          <br/>
+
+          <input type="email" name="email" required placeholder="Email">
+          <br/>
+
+          <input class="submit" type="submit" name="Signup" href="index.html">
+        </form>
+      </div>
+    </div>
 
 
-    </body>
+  </body>
 </html>
